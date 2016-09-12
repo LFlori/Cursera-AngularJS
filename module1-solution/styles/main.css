@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-image: url('http://www.sauditourism.sa/ar/Explore/ThingsToDo/PublishingImages/food.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column;
+  background: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+  color: #fff;
+}
+
+.form-group {
+  text-align: center;
+}
+.form-group input {
+  color: #000;
+  margin: 30px auto;
+}
+
+.app-title {
+  font-size: 5rem;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px rgba(255, 198, 131, 1);
+
+}
+
+.message {
+  font-size: 2em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+ }
+
+ .btn {
+   height: 150px;
+   width: 150px;
+   border-radius: 50%;
+ }
