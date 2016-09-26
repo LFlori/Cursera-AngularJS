@@ -1,0 +1,57 @@
+body {
+  background-image: url('http://cdn1.theinertia.com/wp-content/uploads/2016/01/veggies.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  color: #fff;
+}
+
+.container h1 {
+  font-size: 5rem;
+  text-shadow: 0px 0px 10px rgba(255, 198, 131, 1);
+  margin: 100px 0;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.listColumn {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column;
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+
+.emptyMessage {
+  font-weight: bold;
+  color: red;
+  font-size: 2em;
+}
+li {
+  margin-bottom: 7px;
+  font-size: 1.2em;
+}
+li > button {
+  margin-left: 6px;
+}
+button > span {
+  color: green;
+}
