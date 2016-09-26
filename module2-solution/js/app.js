@@ -41,7 +41,7 @@ function ShoppingListCheckOffService () {
     { name: 'Tomatoes',
       quantity: 15
     },
-    { name: 'Potaoes',
+    { name: 'Potatoes',
       quantity: 25
     }
  ];
